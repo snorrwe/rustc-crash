@@ -1,0 +1,15 @@
+[package]
+name = "proc-boi"
+version = "0.1.0"
+authors = ["Daniel Kiss <littlesnorrboy@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "proc_boi"
+proc-macro = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+syn = "1"
+quote = "1"
+proc-macro2 = "1"
